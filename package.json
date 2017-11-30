@@ -3,8 +3,8 @@
     "main": "./lib/linter-emplua",
     "version": "0.0.0",
     "description": "EMP Lua 语法校验(在保存时);",
-    "keywords": [],
-    "repository": "https://github.com/atom/linter-emplua",
+    "keywords": ["EMP", "lua", "lint"],
+    "repository": "https://github.com/RYTong/linter-emplua",
     "license": "MIT",
     "engines": {
         "atom": ">=1.0.0 <2.0.0"
