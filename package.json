@@ -1,22 +1,26 @@
 {
-    "name": "linter-emplua",
-    "main": "./lib/linter-emplua",
-    "version": "0.0.0",
-    "description": "EMP Lua 语法校验(在保存时);",
-    "keywords": ["EMP", "lua", "lint"],
-    "repository": "https://github.com/RYTong/linter-emplua",
-    "license": "MIT",
-    "engines": {
-        "atom": ">=1.0.0 <2.0.0"
-    },
-    "dependencies": {
-        "luaparse": "*"
-    },
-    "providedServices": {
-        "linter": {
-            "versions": {
-                "2.0.0": "provideLinter"
-            }
-        }
+  "name": "linter-emplua",
+  "main": "./lib/linter-emplua",
+  "version": "0.1.0",
+  "description": "EMP Lua 语法校验(在保存时);",
+  "keywords": [
+    "EMP",
+    "lua",
+    "lint"
+  ],
+  "repository": "https://github.com/RYTong/linter-emplua",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "luaparse": "*"
+  },
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "2.0.0": "provideLinter"
+      }
     }
+  }
 }
