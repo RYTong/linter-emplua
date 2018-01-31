@@ -1,7 +1,7 @@
 {
   "name": "linter-emplua",
   "main": "./lib/linter-emplua",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "EMP Lua 语法校验(在保存时);",
   "keywords": [
     "EMP",
